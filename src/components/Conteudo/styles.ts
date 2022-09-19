@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
         paddingRight: 80,
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'space-between'
+        // justifyContent: 'space-between'
     },
     boxContentText: {
         fontSize: 14,
@@ -20,7 +20,10 @@ export const styles = StyleSheet.create({
        
     },
     trash: {
-        marginLeft: 8
+        marginLeft: 8,
+        position: "absolute",
+        top: 8,
+        right: 8,
     },
     checkbox: {
         marginRight: 10

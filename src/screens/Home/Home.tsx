@@ -14,13 +14,6 @@ import Clipboard from "../../assets/clipboard.svg";
 import { TabCriada } from '../../components/TabCriada/TabCriada';
 import { Conteudo } from '../../components/Conteudo/Conteudo';
 import { TabConcluida } from '../../components/TabConcluida/TabConcluida';
-
-const lista = [
-    "Integer urna interdum massa libero auctor neque turpis turpis semper.",
-    "Integer urna interdum massa libero auctor neque turpis turpis sdfsdfsdfs.",
-    "Integer urna interdum massa libero auctor neque turpis turpis 2342432.",
-]
-
 export function Home(){
     const [tarefa, setTarefa] = useState<string[]>([]);
     const [itemTarefa, setItemTarefa] = useState('');

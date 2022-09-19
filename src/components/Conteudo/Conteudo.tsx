@@ -15,14 +15,13 @@ type Props = {
 
 export function Conteudo({texto, onRemove}: Props){
     const [toggleCheckBox, setToggleCheckBox] = useState(false);
-
+    
     return (
         <View style={styles.boxContent}>
             <CheckBox
                 style={styles.checkbox}
                 disabled={false}
                 value={toggleCheckBox}
-                onTintColor="red"
                 onValueChange={(newValue) => setToggleCheckBox(newValue)}
             />
             <Text style={[styles.checkFalse, toggleCheckBox ? styles.checkFalse : styles.checkTrue]}>
